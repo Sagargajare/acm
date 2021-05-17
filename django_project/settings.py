@@ -163,19 +163,6 @@ ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 
 SITE_ID = 1
 
-# Provider specific settings
-# SOCIALACCOUNT_PROVIDERS = {
-#     'google': {
-#         # For each OAuth based provider, either add a ``SocialApp``
-#         # (``socialaccount`` app) containing the required client
-#         # credentials, or list them here:
-#         'APP': {
-#             'client_id': '249252239563-ur3m22a15dcrbrs9vveisq30mbrhn3s9.apps.googleusercontent.com',
-#             'secret': 'uklpLjHXgXPQ5FHt_rWstTjs',
-#             'key': ''
-#         }
-#     }
-# }
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': [
